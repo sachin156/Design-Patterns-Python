@@ -1,3 +1,4 @@
+# Singletion is used to represent the global variables
 class Borg:
     globaldict={}
     def __init__(self):

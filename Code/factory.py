@@ -12,6 +12,7 @@ class Cat:
         return "Meow"
 
 def getpet(pet="dog"):
+    # saving the objects in dict
     pets=dict(dog=Dog("hope"),cat=Cat("Peace"))
     return pets[pet]
 
